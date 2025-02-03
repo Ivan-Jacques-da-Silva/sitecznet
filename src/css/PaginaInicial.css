@@ -1,0 +1,290 @@
+/* Estilos e animações */
+
+.cards-container {
+  margin-top: -80px;
+  margin-bottom: -80px;
+}
+
+.sessao-mg {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos da seção de serviços */
+.services-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-section h6 {
+  font-family: 'Arial, sans-serif';
+}
+
+.services-section h2 {
+  font-weight: bold;
+}
+
+.services-section .text-left {
+  padding-right: 40px;
+}
+
+/* Cards estilizados com bordas arredondadas */
+.custom-card {
+  background: rgba(230, 52, 26, 0.48) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  border: 1px solid rgba(230, 52, 26, 0.3) !important;
+}
+
+.custom-card .card-title {
+  font-size: 18px !important;
+  color: black !important;
+  white-space: normal !important;
+  word-wrap: break-word !important;
+}
+
+
+.services-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('./../img/fundoSessao1.jpg') no-repeat center center / cover, rgba(255, 255, 255, 0.5);
+  background-size: cover;
+  background-position: center -70px;
+  padding: 60px 0;
+}
+
+@media (max-width: 997px) {
+  .service-card {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1405px) {
+  .navbar-nav .nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .navbar-nav .nav-link .fa {
+    margin-bottom: 4px;
+    font-size: 16px;
+  }
+}
+
+.bg-black .d-flex {
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #E6341A;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Animação ao aparecer */
+.service-card {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.middle-card {
+  margin-top: -20px;
+}
+
+/* Animação ao aparecer */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sessao-degrade {
+  position: relative;
+  background: linear-gradient(to right, rgba(230, 52, 26, 0.85), rgba(255, 105, 0, 0.85)),
+    url('./../img/fundoSessao.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  color: white;
+}
+
+
+.sessao-degrade .text-content {
+  text-align: left;
+}
+
+.sessao-degrade h6 {
+  font-weight: normal;
+}
+
+.sessao-degrade h2 {
+  font-weight: bold;
+}
+
+.btn-redondo {
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+.planos-container {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.planos-container .row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .planos-container .row {
+    flex-wrap: wrap;
+  }
+}
+
+.plano-card {
+  width: 100%;
+  max-width: 350px;
+  min-height: 550px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin: 10px;
+  padding: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Garante que o conteúdo cresça e o botão fique fixo no final */
+.plano-card .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+/* Remove espaço da imagem */
+.plano-img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Estilização individual dos planos */
+.plano-100 {
+  background-color: #2C130A !important;
+  color: white !important;
+}
+
+.plano-400 {
+  background-color: #E6341A !important;
+  color: white !important;
+}
+
+.plano-500 {
+  background-color: #2C130A !important;
+  color: white !important;
+}
+
+/* Fonte dos números */
+.plano-title {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Botão sempre no final do card */
+.btn-plano {
+  margin-top: auto;
+  /* Empurra o botão para o final */
+  align-self: center;
+  width: 90%;
+  /* Ajusta o tamanho do botão */
+}
+
+/* Linha divisória */
+.linha-divisoria {
+  width: 50%;
+  height: 2px;
+  background-color: white;
+  margin: 15px auto;
+}
+
+.plano-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.plano-benefits li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.plano-benefits li svg {
+  flex-shrink: 0;
+}
+
+/* Responsividade para Mobile */
+@media (max-width: 992px) {
+  .planos-container .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plano-card {
+    width: 100%;
+    max-width: 400px;
+    min-height: auto;
+  }
+
+  .plano-benefits {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .btn-plano {
+    width: 100%;
+  }
+}
