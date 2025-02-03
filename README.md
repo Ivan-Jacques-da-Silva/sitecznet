@@ -10,12 +10,11 @@ Este site foi desenvolvido para apresentar os serviços da **CZNET**, fornecer s
 - 💡 **Listagem de planos** com detalhes e valores
 - 📞 **Formulário de contato** para suporte e atendimento
 - 🛒 **Área de contratação** para novos clientes
-- 🔧 **Painel administrativo** (caso aplicável) para gerenciamento de usuários e planos
 
 ## 🛠️ Tecnologias Utilizadas
 - **Front-end:** HTML, CSS, JavaScript (React ou outro framework, se aplicável)
 - **Back-end:** Node.js, PHP ou outra tecnologia utilizada
-- **Banco de Dados:** MySQL, PostgreSQL ou outro banco implementado
+- **Banco de Dados:** MySQL
 
 ## 🚀 Como Executar
 1. Clone o repositório:
