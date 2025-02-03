@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# CZNET - Provedor de Internet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao site oficial da **CZNET**, um provedor de internet dedicado a oferecer conexão rápida e estável para seus clientes.
 
-## Available Scripts
+## 🌐 Sobre o Projeto
+Este site foi desenvolvido para apresentar os serviços da **CZNET**, fornecer suporte aos clientes e permitir a contratação de planos de internet de forma simples e intuitiva.
 
-In the project directory, you can run:
+## 📌 Funcionalidades
+- 📄 **Página institucional** com informações sobre a empresa
+- 💡 **Listagem de planos** com detalhes e valores
+- 📞 **Formulário de contato** para suporte e atendimento
+- 🛒 **Área de contratação** para novos clientes
+- 🔧 **Painel administrativo** (caso aplicável) para gerenciamento de usuários e planos
 
-### `npm start`
+## 🛠️ Tecnologias Utilizadas
+- **Front-end:** HTML, CSS, JavaScript (React ou outro framework, se aplicável)
+- **Back-end:** Node.js, PHP ou outra tecnologia utilizada
+- **Banco de Dados:** MySQL, PostgreSQL ou outro banco implementado
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Como Executar
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/cznet-site.git
+   ```
+2. Instale as dependências (caso aplicável):
+   ```sh
+   npm install  # ou yarn install
+   ```
+3. Execute o servidor localmente:
+   ```sh
+   npm start  # ou comando correspondente à tecnologia usada
+   ```
+4. Acesse no navegador: `http://localhost:3000`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔗 Contato
+Para mais informações, acesse nosso site oficial ou entre em contato pelo suporte.
 
-### `npm test`
+---
+© CZNET - Todos os direitos reservados.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
